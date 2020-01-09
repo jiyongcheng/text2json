@@ -14,6 +14,9 @@ def main():
         if not (os.path.exists(args.file)):
           print("file is not exists: %s" % args.file)
           sys.exit()
+    else:
+      print("you need to provide txt file path, check --help")
+      sys.exit()
     fileinfo = os.path.split(args.file)
     dict = {
       "report name": fileinfo[1],
