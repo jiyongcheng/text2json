@@ -1,0 +1,8 @@
+SUBJECT:  x
+EMAIL:  a@something.com
+[REPORT]
+FILE: a.sql
+TITLE: titleOfReport1
+[REPORT]
+FILE: b.sql
+TITLE: titleOfReport2
